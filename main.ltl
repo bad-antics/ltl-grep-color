@@ -1,0 +1,15 @@
+// ltl-grep-color/main.ltl
+//
+// Recursive regex grep with ANSI colour + context lines.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-grep-color v0.1.0")
+    io::println("Recursive regex grep with ANSI colour + context lines.")
+    0
+}
